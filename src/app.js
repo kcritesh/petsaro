@@ -21,7 +21,7 @@ app.use(helmet());
 app.use("/api", rootRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the API Gharpaluwa");
+  res.send("Welcome to the Petsaro API");
 });
 
 app.use("*", (req, res) => {
